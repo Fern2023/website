@@ -6,3 +6,9 @@ h1{
     color: white;
 text-align: center;
 }
+
+h2{
+    color: blue;
+    font-size: large;
+    font-family: cursive;
+}
