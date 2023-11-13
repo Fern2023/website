@@ -1,15 +1,61 @@
+html{
+    background-color: aliceblue;
+    height: 500vh;
+}
+
+
 body{
-    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* justify-content:center; */
+    /* align-items: center; */
+
+    background-color: white;
+    border: 1em solid black;
+    /* min-height: auto; */
+
+    
+    
+
 }
 
 h1{
-    color: white;
-text-align: center;
+    color: blue;
+    font-family:cursive;
+    font-size: small;
+    text-align: center;
+    
+    background-color: whites;
+    grid-column: 1/4;
+   
+
+    /* width: 100px; */
+    /* height: 500px;z */
+    margin: 5em solid black;
+    border: 0.5em solid black;
+    padding: 5em;
 }
 
 h2{
-    background-color: antiquewhite;
-    color: black;
+    
+    background-color: aliceblue;
+    grid-column: auto;
+
     font-size: large;
     font-family: cursive;
+    /* text-align: center; */
+
+
+    margin: 10em solid black;
+    border: 0.5em solid black;
+    padding: 1em;
+   
+}
+
+h3{
+    background: black;
+    grid-column: 1/4;
+
+    text-align: center;
+    color: white;
 }
